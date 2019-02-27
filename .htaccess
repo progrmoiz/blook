@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+	Options +FollowSymLinks
+    RewriteEngine on
+#	RewriteBase /
+
+	# Redirect all calls to the /www folder.
+    RewriteRule    ^$    www/    [L]
+    RewriteRule    (.*)  www/$1  [L]
+</IfModule>

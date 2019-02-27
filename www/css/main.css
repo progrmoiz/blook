@@ -1,0 +1,10 @@
+.star-ratings {
+  /* unicode-bidi: bidi-override;
+  color: #c5c5c5;
+  font-size: 25px;
+  position: relative;
+  padding: 0; */
+}
+.star-ratings .star-ratings-bottom {
+  z-index: 0;
+}
